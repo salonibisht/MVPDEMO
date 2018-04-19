@@ -24,7 +24,7 @@ import java.util.Random;
  */
 
 public class NotificationReceiver extends BroadcastReceiver {
-    private static final String TAG = "NotificationPublisher";
+    private static final String TAG = "NotificationReceiver";
     public static String NOTIFICATION_ID = "notification-id";
     public static String NOTIFICATION = "notification";
 
@@ -38,7 +38,7 @@ public class NotificationReceiver extends BroadcastReceiver {
         NotificationCompat.Builder notification = new NotificationCompat.Builder(context)
                 .setContentTitle("test").setContentText("test").setPriority(NotificationCompat.PRIORITY_DEFAULT);
         Log.i(TAG, "notification sent");
-       //NotificationManagerCompat notificationManager = NotificationManagerCompat.from(context);
+     //  NotificationManagerCompat notificationManager = NotificationManagerCompat.from(context);
         notificationManager.notify(new Random(10).nextInt(), notification.build());
         Toast.makeText(context, "Alarm", Toast.LENGTH_SHORT).show();
         //notificationManager.notify(new Random(1000).nextInt(), notification);
