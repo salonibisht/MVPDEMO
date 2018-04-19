@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FinalMVPDemo</string>
+    <string name="title_activity_sample">SampleActivity</string>
+    <string name="enter_institute_name">Enter Institute Name</string>
+    <string name="description">Description</string>
+    <string name="submit">submit</string>
+    <string name="save">Save</string>
+    <string name="todo">Todo</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="date_successfully_saved">Data Saved Successfully</string>
+    <string name="search">search</string>
+    <string name="please_enter_todo_event">Please enter todo event</string>
+    <string name="please_enter_description">Please enter description</string>
+    <string name="please_enter_date">Please enter date</string>
+    <string name="please_enter_time">Please enter time</string>
+    <string name="edit_details">Edit Details</string>
+    <string name="event_details">Event Details</string>
+    <string name="event_notification">Event Notification</string>
+    <string name="update">Update</string>
+    <string name="update_successfully">Data update Successfully</string>
+    <string name="message_saved">Message Saved</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_option">Select Option</string>
+</resources>
